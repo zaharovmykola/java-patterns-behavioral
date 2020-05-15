@@ -47,6 +47,9 @@ public class Hobbits implements WeatherObserver {
       case WINDY:
         LOGGER.info("The hobbits hold their hats tightly in the windy weather.");
         break;
+      case STORMY:
+        LOGGER.info("The hobbits are sheltering in the caves.");
+        break;
       default:
         break;
     }

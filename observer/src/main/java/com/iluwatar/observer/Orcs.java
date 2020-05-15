@@ -47,6 +47,9 @@ public class Orcs implements WeatherObserver {
       case WINDY:
         LOGGER.info("The orc smell almost vanishes in the wind.");
         break;
+      case STORMY:
+        LOGGER.info("The orc are flying by storm somewhere.");
+        break;
       default:
         break;
     }

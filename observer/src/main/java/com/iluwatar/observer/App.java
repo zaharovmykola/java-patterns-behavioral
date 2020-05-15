@@ -54,13 +54,20 @@ public class App {
     Weather weather = new Weather();
     weather.addObserver(new Orcs());
     weather.addObserver(new Hobbits());
+    weather.addObserver(new Elves());
     // add an instance of additional race as another observer
 
     weather.timePasses();
+    System.out.println();
     weather.timePasses();
+    System.out.println();
     weather.timePasses();
+    System.out.println();
+    weather.timePasses();
+    System.out.println();
     weather.timePasses();
 
+    /*
     // Generic observer inspired by Java Generics and Collection by Naftalin & Wadler
     LOGGER.info("--Running generic version--");
     GWeather genericWeather = new GWeather();
@@ -71,5 +78,6 @@ public class App {
     genericWeather.timePasses();
     genericWeather.timePasses();
     genericWeather.timePasses();
+     */
   }
 }

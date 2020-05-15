@@ -29,7 +29,7 @@ package com.iluwatar.observer;
 public enum WeatherType {
 
   // add another weather type
-  SUNNY, RAINY, WINDY, COLD;
+  SUNNY, RAINY, WINDY, COLD, STORMY;
 
   @Override
   public String toString() {
